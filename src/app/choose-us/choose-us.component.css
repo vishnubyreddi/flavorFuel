@@ -1,0 +1,46 @@
+.choose-us-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 5%;
+}
+
+.choose-us-content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.side-heading {
+    font-weight: bold;
+    background-color: rgb(49, 156, 192); /* Highlighted background color */
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.choose-us-image {
+    position: relative;
+    width: 50%; /* Adjust the width as needed */
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 187, 255, 0.3); /* Blue transparent layer */
+    border-radius: 10px;
+}
+
+.choose-us-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Crop the image on a height basis */
+}

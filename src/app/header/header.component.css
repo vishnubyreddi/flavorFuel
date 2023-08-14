@@ -1,0 +1,23 @@
+/* Header Styles */
+.top-layer {
+    background-color: lightblue;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 100px;
+    height: auto;
+}
+
+.browse-menu-btn {
+    background-color:rgb(49, 156, 192);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
